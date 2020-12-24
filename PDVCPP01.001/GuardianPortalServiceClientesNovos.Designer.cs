@@ -1,6 +1,6 @@
 ﻿namespace PDVCPP01._001
 {
-    partial class Service1
+    partial class GuardianPortalServiceClientesNovos
     {
         /// <summary> 
         /// Variável de designer necessária.

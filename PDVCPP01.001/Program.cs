@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PDVCPP01._001.Service;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.ServiceProcess;
@@ -14,12 +15,17 @@ namespace PDVCPP01._001
         /// </summary>
         static void Main()
         {
+#if (DEBUG)
+            Main main = new Main();
+            main.ExecucaoServico();
+#else
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                new Service1()
+                new GuardianPortalServiceClientesNovos()
             };
             ServiceBase.Run(ServicesToRun);
+#endif
         }
     }
 }

@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1062
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDVCPP01.001", "PDVCPP01.001\PDVCPP01.001.csproj", "{8D23C3D7-51E5-42D7-8B4F-FAEDF6A2ACD5}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PDVCPP01.001.Install", "PDVCPP01.001.Install\PDVCPP01.001.Install.vdproj", "{7F1D2978-D392-4179-95B9-DDB13A24539B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{8D23C3D7-51E5-42D7-8B4F-FAEDF6A2ACD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D23C3D7-51E5-42D7-8B4F-FAEDF6A2ACD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D23C3D7-51E5-42D7-8B4F-FAEDF6A2ACD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F1D2978-D392-4179-95B9-DDB13A24539B}.Debug|Any CPU.ActiveCfg = Debug
+		{7F1D2978-D392-4179-95B9-DDB13A24539B}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
